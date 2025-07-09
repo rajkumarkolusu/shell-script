@@ -2,8 +2,8 @@
 
 # declaring of variables
 
-PERSON1=virat # no space here b/w = and value 
-PERSON2=rahul # no space here  b/w = and value 
+PERSON1=$1
+PERSON2=$2 
 
 # referring the variables
 
