@@ -3,14 +3,14 @@
 USERID=$(id -u)
 
 VALIDATE(){
-if [ $1 -ne 0 ]
-then
-    echo "$2...FAILUR"
-    exit 1
-else 
-    cho "$2 ...SUCCESS"
+    if [ $1 -ne 0 ]
+    then
+        echo "$2...FAILUR"
+        exit 1
+    else 
+        cho "$2 ...SUCCESS"
 
-fi
+    fi
 
 }
 
