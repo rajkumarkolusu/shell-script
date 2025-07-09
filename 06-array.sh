@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Movies("SALAR" "DARLING" "REBEL")
+Movies( "SALAR" "DARLING" "REBEL" )
 # size of above array is 3
 # index are 0,1,2
 
