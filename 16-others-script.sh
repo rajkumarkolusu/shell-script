@@ -2,5 +2,5 @@
 
 COURSE="DevOps from others script"
 
-echo "Varible value from others script is $COURSE"
-echo "Process ID of others script is $$"
+echo "Varible value from others script: $COURSE"
+echo "Process ID of others script: $$"
